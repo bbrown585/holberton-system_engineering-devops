@@ -1,0 +1,7 @@
+!#/usr/bin/env bash
+var=Best School
+while [ $var -lt 10 ]
+do
+	echo "$v"
+	var=$(( +1 ))
+done
