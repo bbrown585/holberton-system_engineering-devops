@@ -1,4 +1,5 @@
 !#/usr/bin/env bash
+# Displaying "Best School" 10 times
 var=Best School
 while [ $var -lt 10 ]
 do
