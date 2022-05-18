@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Highlander
+v=$(pgrep -f 7-highlander)
+kill "$v"
