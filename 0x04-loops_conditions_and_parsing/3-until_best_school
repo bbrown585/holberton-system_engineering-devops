@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Until
-var=1
-until [ $var -le 10 ]
+var=0
+until [ $var -le 9 ]
 do
         echo "Best School"
-        $(( var + 1 ))
+       var=$(( var + 1 ))
 done
