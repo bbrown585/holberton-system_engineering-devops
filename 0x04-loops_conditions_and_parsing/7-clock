@@ -1,1 +1,14 @@
 #!/usr/bin/env bash
+# Clock work
+TIME=0
+while [ $TIME -le 12 ]
+do
+	echo "Hour: $TIME"
+	((TIME++))
+		MIN=1
+		while [ $MIN -lt 60 ]
+		do
+			echo "$MIN"
+			((MIN++))
+		done
+done
