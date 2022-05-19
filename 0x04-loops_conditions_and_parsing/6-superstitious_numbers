@@ -1,1 +1,17 @@
 #!/usr/bin/env bash
+# China Japan Italy
+var=1
+while [ $var -le 20 ]
+do
+	echo "$var"
+	case $var in
+		4) echo "bad luck from China"
+			;;
+		9) echo "bad luck from Japan"
+			;;
+		17) echo "bad luck from Italy"
+			;;
+		
+	esac
+	var=$((var+1))
+done
